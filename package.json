@@ -1,0 +1,22 @@
+{
+  "name": "cucumber-js-example",
+  "version": "0.0.0",
+  "description": "Example javascript bdd with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint",
+    "test": "node index"
+  },
+  "author": "Stephen Davidson",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "chromedriver": "^2.20.0",
+    "cucumber": "^0.9.2",
+    "js-yaml": "^3.4.6",
+    "nightwatch": "^0.8.8"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1-rc1"
+  }
+}
